@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "validarSala()",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\CinemaTest\\$ValidarSalaTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "calcularPrecoSala()",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\CinemaTest\\$CalcularPrecoSalaTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "calcularValorIngresso()",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\CinemaTest\\$CalcularValorIngressoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "contarQtdAcentosImpares()",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\CinemaTest\\$ContarQtdAcentosImparesTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
